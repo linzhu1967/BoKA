@@ -1,0 +1,29 @@
+config:
+  random_seed: 109602
+  max_length: 1024
+  tokenizer_type: microsoft/biogpt
+  eval_batch_size: 32
+
+student_models:
+  model_type_or_dir: microsoft/biogpt
+  num_labels: 4
+  ckpt_paths:
+    - student_models/medmcqa_biogpt/ka/teacher_ABDEIKN/model.epoch0.val_acc=0.5325.pt
+    
+teacher_models:
+  model_type_or_dir: microsoft/biogpt
+  num_labels: 4
+  ckpt_paths:
+    - ../../teacher_models/biogpt_medmcqa/A/model.epoch48.ckpt
+
+
+
+data:
+  type: MedMCQA
+  topics: 
+    - dev
+  test_files:
+    - /home/datasets/MedMCQA/dev.json
+
+    
+
