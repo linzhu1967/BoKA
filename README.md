@@ -8,9 +8,9 @@ We use two multi-domain datasets:
 
 ### Experiments
 1. To automatically select combinations, conduct the plural KA process, and evaluate the produced student model, use the following commands:
-    - python bo.py (for PubMedQA)
-    - python bo_medmcqa.py (for MedMCQA)
+    - `python bo.py` (for PubMedQA)
+    - `python bo_medmcqa.py` (for MedMCQA)
     
-2. We provide the superior student models on PubMedQA and MedMCQA (https://drive.google.com/drive/folders/1UKUfop1ZXm4_V70xIv_iS6ZNpJi5Scxi?usp=sharing), respectively. The evaluation commands are as follows:
-    - python evaluate.py (for both PubMedQA and MedMCQA)
+2. We provide superior student models on PubMedQA and MedMCQA, respectively. (https://drive.google.com/drive/folders/1UKUfop1ZXm4_V70xIv_iS6ZNpJi5Scxi?usp=sharing) The evaluation commands are as follows:
+    - `python evaluate.py` (for both PubMedQA and MedMCQA)
 
