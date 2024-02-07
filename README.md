@@ -11,6 +11,6 @@ We use two multi-domain datasets:
     - python bo.py (for PubMedQA)
     - python bo_medmcqa.py (for MedMCQA)
     
-2. We provide the superior student model on PubMedQA and MedMCQA, respectively. The evaluation commands are as follows:
+2. We provide the superior student models on PubMedQA and MedMCQA (https://drive.google.com/drive/folders/1UKUfop1ZXm4_V70xIv_iS6ZNpJi5Scxi?usp=sharing), respectively. The evaluation commands are as follows:
     - python evaluate.py (for both PubMedQA and MedMCQA)
 
